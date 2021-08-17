@@ -1,2 +1,2 @@
-export * as operation from "./operation";
-export * as selectors from "./selectors";
+export * as operation from './contactsOperation';
+export * as selectors from './contactsSelectors';

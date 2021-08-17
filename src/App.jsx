@@ -7,7 +7,7 @@ import { RiContactsLine } from 'react-icons/ri';
 
 import { useSelector } from 'react-redux';
 import { useEffect } from 'react';
-import { getContacts } from './redux/selectors';
+import { getContacts } from './redux/contactsSelectors';
 
 export default function App() {
   const contacts = useSelector(getContacts);

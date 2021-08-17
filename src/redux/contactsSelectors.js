@@ -1,4 +1,4 @@
-import { createSelector } from "@reduxjs/toolkit";
+import { createSelector } from '@reduxjs/toolkit';
 
 export const getFilter = (state) => state.contacts.filter;
 export const getIsLoading = (state) => state.contacts.isLoading;
